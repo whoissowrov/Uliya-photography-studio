@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uliya - Photography Studio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body style="font-family: 'Poppins', sans-serif;">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-white py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-dark fs-3" href="#">
+        <i class="fa-solid fa-camera text-info me-2"></i>uliya
+      </a>
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link text-info fw-semibold active px-3" href="#home">• Home</a></li>
+          <li class="nav-item"><a class="nav-link text-info fw-semibold px-3" href="#about">• about</a></li>
+          <li class="nav-item"><a class="nav-link text-info fw-semibold px-3" href="#portfolio">• photos</a></li>
+          <li class="nav-item"><a class="nav-link text-info fw-semibold px-3" href="#portfolio">• portfolio</a></li>
+          <li class="nav-item"><a class="nav-link text-info fw-semibold px-3" href="#contact">• contact us</a></li>
+        </ul>
+        <button class="btn btn-link text-info ms-lg-2 p-0" type="button" aria-label="Search"><i class="fa-solid fa-magnifying-glass fs-5"></i></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="position-relative overflow-hidden py-5" id="home">
+    <img src="img/hero-bg.png" alt="" class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover z-n1">
+    <div class="container py-lg-4">
+      <div class="row align-items-center">
+        <div class="col-md-5 mb-4 mb-md-0">
+          <h1 class="display-3 fw-bold text-dark lh-1 mb-3">photography<br>studio</h1>
+          <p class="text-secondary mb-4 pe-lg-3">It is a long established fact that a reader will be distracted by the readable content</p>
+          <div class="d-flex gap-3">
+            <a href="#about" class="btn btn-info text-white rounded-pill px-4 py-2 fw-semibold">About Us</a>
+            <a href="#contact" class="btn btn-dark rounded-pill px-4 py-2 fw-semibold">Get A Quote</a>
+          </div>
+        </div>
+        <div class="col-md-7 text-center">
+          <img src="img/slider-img.jpg" alt="Photography Studio" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="py-5 text-center" id="about">
+    <div class="container">
+      <h2 class="display-6 fw-bold text-dark mb-4">about studio <i class="fa-solid fa-camera text-info fs-4 ms-2"></i></h2>
+      <div class="d-flex justify-content-center my-4">
+        <div class="p-4 border border-2 border-info rounded-circle shadow-sm bg-white d-flex align-items-center justify-content-center" style="width: 290px; height: 290px;">
+          <img src="img/about-img.jpg" alt="Photographer" class="img-fluid" style="max-height: 250px;">
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <p class="text-secondary mb-4 lh-lg">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,</p>
+          <a href="#about" class="btn btn-dark rounded-pill px-5 py-2 fw-semibold">about More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="py-5 text-center" id="portfolio">
+    <div class="container">
+      <h2 class="display-6 fw-bold text-dark mb-1">Our portfolio <i class="fa-solid fa-camera text-info fs-4 ms-2"></i></h2>
+      <p class="text-secondary mb-5">minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+      
+      <div class="row g-3 mb-5 text-start">
+        <div class="col-md-5 d-flex flex-column gap-3">
+          <div class="position-relative overflow-hidden rounded shadow-sm" style="height: 220px;">
+            <img src="img/p-1.jpg" alt="Wild Animals" class="w-100 h-100 object-fit-cover">
+            <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center bg-info bg-opacity-75">
+              <a href="img/p-1.jpg" class="btn btn-light rounded-circle text-info d-flex align-items-center justify-content-center shadow" style="width: 44px; height: 44px;" target="_blank"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="position-relative overflow-hidden rounded shadow-sm flex-grow-1" style="min-height: 380px;">
+            <img src="img/p-4.jpg" alt="Macro Purple Flower" class="w-100 h-100 object-fit-cover">
+          </div>
+        </div>
+
+        <div class="col-md-7 d-flex flex-column gap-3">
+          <div class="position-relative overflow-hidden rounded shadow-sm" style="height: 190px;">
+            <img src="img/p-2.jpg" alt="Butterfly Macro" class="w-100 h-100 object-fit-cover">
+          </div>
+          <div class="position-relative overflow-hidden rounded shadow-sm" style="height: 190px;">
+            <img src="img/p-3.jpg" alt="Lizard Eye Macro" class="w-100 h-100 object-fit-cover">
+          </div>
+          <div class="row g-3">
+            <div class="col-7">
+              <div class="position-relative overflow-hidden rounded shadow-sm" style="height: 205px;">
+                <img src="img/p-5.jpg" alt="Water Drops On Seed" class="w-100 h-100 object-fit-cover">
+              </div>
+            </div>
+            <div class="col-5">
+              <div class="position-relative overflow-hidden rounded shadow-sm" style="height: 205px;">
+                <img src="img/p-6.jpg" alt="Dandelion Seeds Macro" class="w-100 h-100 object-fit-cover">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#portfolio" class="btn btn-dark rounded-pill px-5 py-2 fw-semibold">See More</a>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section class="py-5 text-center" id="achievements">
+    <div class="container">
+      <h2 class="display-6 fw-bold text-dark mb-1">ACHIEVEMENTS <i class="fa-solid fa-camera text-info fs-4 ms-2"></i></h2>
+      <p class="text-secondary mb-5">minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+      
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-4 col-sm-6">
+          <div class="card h-100 border-info border-2 p-4 rounded-3 shadow-sm">
+            <div class="card-body">
+              <i class="fa-solid fa-camera-retro fa-3x text-info mb-3"></i>
+              <h3 class="display-6 fw-bold text-dark mb-1">1000+</h3>
+              <p class="fw-semibold text-dark mb-0">Photo Session</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="card h-100 border-info border-2 p-4 rounded-3 shadow-sm">
+            <div class="card-body">
+              <i class="fa-solid fa-users fa-3x text-info mb-3"></i>
+              <h3 class="display-6 fw-bold text-dark mb-1">9000+</h3>
+              <p class="fw-semibold text-dark mb-0">Happy Customers</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="card h-100 border-info border-2 p-4 rounded-3 shadow-sm">
+            <div class="card-body">
+              <i class="fa-solid fa-images fa-3x text-info mb-3"></i>
+              <h3 class="display-6 fw-bold text-dark mb-1">1000+</h3>
+              <p class="fw-semibold text-dark mb-0">Archive Photographs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial Section -->
+  <section class="py-5 text-center" id="testimonials">
+    <div class="container">
+      <h2 class="display-6 fw-bold text-dark mb-1">Testimonial <i class="fa-solid fa-camera text-info fs-4 ms-2"></i></h2>
+      <p class="text-secondary mb-5">minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+      
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-3 d-flex justify-content-center justify-content-md-end gap-3 mb-4 mb-md-0">
+          <button class="btn btn-info text-white rounded-circle d-flex align-items-center justify-content-center shadow-sm" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev" style="width: 48px; height: 48px;" aria-label="Previous"><i class="fa-solid fa-arrow-left"></i></button>
+          <button class="btn btn-dark text-white rounded-circle d-flex align-items-center justify-content-center shadow-sm" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next" style="width: 48px; height: 48px;" aria-label="Next"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="col-md-8 col-lg-7 text-start">
+          <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner card border-info border-2 p-4 p-md-5 rounded-3 shadow-sm">
+              <div class="carousel-item active">
+                <h5 class="fw-bold text-dark mb-2">Aloz den</h5>
+                <p class="text-secondary fst-italic mb-0 lh-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+              </div>
+              <div class="carousel-item">
+                <h5 class="fw-bold text-dark mb-2">Sarah Jenkins</h5>
+                <p class="text-secondary fst-italic mb-0 lh-lg">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="py-5 bg-light text-center" id="contact">
+    <div class="container">
+      <h2 class="display-6 fw-bold text-dark mb-4">Contact Us <i class="fa-solid fa-camera text-info fs-4 ms-2"></i></h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-7 col-md-9 text-start">
+          <form onsubmit="event.preventDefault();">
+            <input type="text" class="form-control border-0 border-bottom rounded-0 shadow-none px-0 py-2 bg-transparent mb-3" placeholder="Name" required>
+            <input type="tel" class="form-control border-0 border-bottom rounded-0 shadow-none px-0 py-2 bg-transparent mb-3" placeholder="Phone Number">
+            <input type="email" class="form-control border-0 border-bottom rounded-0 shadow-none px-0 py-2 bg-transparent mb-3" placeholder="Email" required>
+            <textarea class="form-control border-0 border-bottom rounded-0 shadow-none px-0 py-2 bg-transparent mb-4" rows="3" placeholder="Message" required></textarea>
+            <div class="text-center">
+              <button type="submit" class="btn btn-info text-white rounded-pill px-5 py-2 fw-semibold shadow-sm">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-5">
+    <div class="container">
+      <h5 class="fw-semibold mb-3">Follow on</h5>
+      <div class="d-flex justify-content-center gap-2 mb-4">
+        <a href="#" class="btn btn-outline-light rounded-circle btn-sm d-flex align-items-center justify-content-center" style="width: 38px; height: 38px;" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" class="btn btn-outline-light rounded-circle btn-sm d-flex align-items-center justify-content-center" style="width: 38px; height: 38px;" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" class="btn btn-outline-light rounded-circle btn-sm d-flex align-items-center justify-content-center" style="width: 38px; height: 38px;" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" class="btn btn-outline-light rounded-circle btn-sm d-flex align-items-center justify-content-center" style="width: 38px; height: 38px;" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#" class="btn btn-outline-light rounded-circle btn-sm d-flex align-items-center justify-content-center" style="width: 38px; height: 38px;" aria-label="Dribbble"><i class="fa-brands fa-dribbble"></i></a>
+        <a href="#" class="btn btn-outline-light rounded-circle btn-sm d-flex align-items-center justify-content-center" style="width: 38px; height: 38px;" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+      </div>
+      <p class="text-white-50 small mb-0">&copy; 2026 All Rights Reserved. Design By <a href="https://html.design/" class="text-white text-decoration-none" target="_blank" rel="noopener">Free Html Templates</a></p>
+    </div>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
